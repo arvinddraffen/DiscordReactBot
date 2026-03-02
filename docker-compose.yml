@@ -1,0 +1,6 @@
+services:
+  discordreactbot:
+    image: ${DOCKER_REGISTRY-}discordreactbot
+    build:
+      context: .
+      dockerfile: DiscordReactBot/Dockerfile

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="DiscordReactBot/DiscordReactBot.csproj" />
+  <Project Path="docker-compose.dcproj">
+    <Build />
+  </Project>
+</Solution>
