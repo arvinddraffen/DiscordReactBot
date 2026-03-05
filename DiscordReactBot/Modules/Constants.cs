@@ -28,6 +28,8 @@ namespace DiscordReactBot.Modules
         internal const int MONEY_BAG = 0xD83D;
         internal const int CHART_WITH_DOWNWARDS_TREND = 0xD83D;
         internal const int CREDIT_CARD = 0xD83D;
+        internal const int DOWN_POINTING_RED_TRIANGLE = 0xD83D;
+        internal const int BANKNOTE_WITH_DOLLAR_SIGN = 0xD83D;
 
         internal readonly static Dictionary<int, int> LUT_ATTEMPT_TO_REACT = new Dictionary<int, int>
         {
@@ -52,6 +54,8 @@ namespace DiscordReactBot.Modules
         internal const string MONEY_BAG = "\uD83D\uDCB0";
         internal const string CHART_WITH_DOWNWARDS_TREND = "\uD83D\uDCC9";
         internal const string CREDIT_CARD = "\uD83D\uDCB3";
+        internal const string DOWN_POINTING_RED_TRIANGLE = "\uD83D\uDD3B";
+        internal const string BANKNOTE_WITH_DOLLAR_SIGN = "\uD83D\uDCB5";
 
         internal readonly static Dictionary<int, string> LUT_EMOJI_HEX_TO_STR = new Dictionary<int, string>
         {

@@ -78,10 +78,12 @@ namespace DiscordReactBot.Modules
                     else if (downArrowCount > upArrowCount)
                     {
                         await message.AddReactionAsync(new Emoji(ReactEmojiCodesAsString.CHART_WITH_DOWNWARDS_TREND));
+                        await message.AddReactionAsync(new Emoji(ReactEmojiCodesAsString.DOWN_POINTING_RED_TRIANGLE));
                     }
                     else
                     {
                         await message.AddReactionAsync(new Emoji(ReactEmojiCodesAsString.CREDIT_CARD));
+                        await message.AddReactionAsync(new Emoji(ReactEmojiCodesAsString.BANKNOTE_WITH_DOLLAR_SIGN));
                     }
 
                     if (rowOffset > 2)
